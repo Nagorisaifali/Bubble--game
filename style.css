@@ -1,0 +1,82 @@
+/* *{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Gilroy";
+    box-sizing: border-box;
+} */
+html,body{
+    height: 100%;
+    width: 100%; 
+    font-family: cursive; 
+}#main{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(148, 200, 148);
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}#panel{
+    overflow: hidden;
+    width: 82%;
+    height: 90%;
+    border-radius: 10px; 
+    background-color: rgb(144, 171, 194); 
+}#ptop{
+    display: flex;
+    color: white; 
+    padding: 0px 20px ;
+    align-items: center; 
+    justify-content: space-around; 
+    width: 100%;
+    height: 100px;
+    background-color: rgb(49, 83, 49);
+}.elam{
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    gap: 10px; 
+}
+.box{
+    
+    font-weight: 600;   
+    color: rgb(1, 114, 25); 
+    padding: 10px 20px ;
+    height: 10px;  
+    background-color: rgb(250, 250, 250);
+    width: 20px; 
+    border-radius: 5px;  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}#pbtm{
+    width: 100%;
+    padding: 20px;
+    height: calc(100% - 100px); 
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    flex-wrap: wrap;
+    gap: 10px; 
+}
+.bubble{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60px;
+    width: 60px;
+    background-color: rgb(49, 83, 49);
+    border-radius: 50%; 
+    color: white; 
+    font-weight: 500px; 
+}.bubble:hover{
+    cursor: pointer; 
+    background-color: rgb(11, 71, 11);
+}#pbtm h1{
+    font-size: 80px;
+    font-weight: 600;
+    color: rgb(7, 6, 6); 
+    text-shadow: 50px rgb(52, 71, 88) ;
+    font-family: cursive;
+    font-style: italic;
+    transition: 3 4s ease-in;  
+}
